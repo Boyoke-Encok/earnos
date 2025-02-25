@@ -6,8 +6,11 @@ https://app.earnos.com?ref=boyokeencok
 1. npm install untuk memperbarui modul. Konfigurasi bot ada di file .env (baca file ini sebelum menjalankan bot)
 2. nano tokens.txt menyimpan token
 - instruksi untuk mendapatkan token:
-✓ Akses web => F12 (klik kanan/periksa) => tab aplikasi => cookies => 
+
+✓ Akses web => F12 (klik kanan/periksa) => tab aplikasi => cookies =>
+
 ✓ Akses web => F12 (klik kanan/periksa) => masuk ke tab console => paste kode di bawah ini (jika tidak bisa paste, masukkan secara manual ketik allow pasting dulu lalu paste lagi)
+
 - const getCookie = (name) => {
   const value = `; ${document.cookie}`;
   const parts = value.split(`; ${name}=`);
