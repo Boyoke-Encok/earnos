@@ -23,4 +23,5 @@ const earnAuthCookie = getCookie('earnos-auth.v0.0.3');
 console.log(earnAuthCookie);
 
 proxy.txt menyimpan proxy dalam format proxy: http://user:pass@ip:port (siapa pun yang menggunakan proxy dapat menambahkannya)
+
 3. node main.js
